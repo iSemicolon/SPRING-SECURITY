@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoansControler {
 
-    @GetMapping("/myLoan")
-
-    public String getLoantDetails() {
-        return "Welcome to Loan";
+    @GetMapping("/myLoans")
+    public String getLoanDetails() {
+        return "Here are the loan details from the DB";
     }
 }
